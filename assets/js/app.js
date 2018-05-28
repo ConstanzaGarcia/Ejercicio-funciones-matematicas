@@ -1,11 +1,13 @@
 let numberone = 36325;
 let numbertwo = 9824;
 let numberthree = 777;
+
 function add() {
     return numbertwo + numberthree;
 }
-function myFunction() {
-    document.getElementById("suma").innerHTML = add(); 
+
+function myFunction(){
+    document.getElementById("sumar").innerHTML = add();
 }
 
 function multiply () {
